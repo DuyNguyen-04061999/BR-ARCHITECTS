@@ -1,0 +1,28 @@
+@media (max-width: 739px) {
+   
+    
+    .nav-wrapper .nav-list {
+        display: none;
+    }
+    #nav-mobile-input:checked ~ .nav-mobile-list{
+        display: block;
+    }
+
+    .nav-mobile-icon {
+        display: block;
+    }
+    #content .contact-submit,
+    #content .member-contact{
+        width: 100%;
+        padding: 16px 32px;
+    }
+
+    .slider__brand-desc span {
+        display: none;
+    }
+
+    .slider__brand-desc {
+        transform: translate(-50%,-50%);
+    }
+
+}    
